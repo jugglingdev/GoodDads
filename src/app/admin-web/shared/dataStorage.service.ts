@@ -1,7 +1,5 @@
 import { Injectable } from "@angular/core";
-// import { UsersService } from "./users.service";
 import { collection, Firestore, addDoc, getDoc, getDocs, doc } from '@angular/fire/firestore';
-import { User } from "../forms/user.model";
 import { setLogLevel } from "@angular/fire/app";
 
 @Injectable({providedIn: 'root'})
