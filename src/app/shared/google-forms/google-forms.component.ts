@@ -2,11 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { google } from 'googleapis';
 
 @Component({
-  selector: 'app-forms',
-  templateUrl: './forms.component.html',
-  styleUrls: ['./forms.component.css']
+  selector: 'app-google-forms',
+  templateUrl: './google-forms.component.html',
+  styleUrls: ['./google-forms.component.css']
 })
-export class FormsComponent implements OnInit {
+export class GoogleFormsComponent implements OnInit {
+
   private forms: any = google.forms('v1');
 
   constructor() { }

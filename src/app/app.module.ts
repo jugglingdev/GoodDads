@@ -37,6 +37,7 @@ import { getAuth, provideAuth } from '@angular/fire/auth';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatListModule} from '@angular/material/list';
 import { ProfileComponent } from './admin-web/shared/sidebar/profile/profile.component';
+import { GoogleFormsComponent } from './shared/google-forms/google-forms.component';
 
 @NgModule({
   declarations: [
@@ -59,6 +60,7 @@ import { ProfileComponent } from './admin-web/shared/sidebar/profile/profile.com
     ResourcesComponent,
     SidebarComponent,
     ProfileComponent,
+    GoogleFormsComponent,
   ],
   imports: [
     BrowserModule,
