@@ -37,7 +37,6 @@ export class DataStorageService {
         id: doc.id,
         ...doc.data(),
       }))
-      console.log(result.docs.map((doc) => doc.id))
     } catch(err) {
       console.log(err);
     }
